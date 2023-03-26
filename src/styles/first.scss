@@ -1,15 +1,12 @@
 .first{
     height: 80vh;
   background-color: rgb(247, 241, 235);
-  padding: 0 1rem;
+ 
   .container{
-    width: 80%;
-    margin: 0 auto;
+    
     display: flex;
-    @media screen  and (max-width:960px){
-      width: 95%;;
-                
-    }
+   
+    
     
     .left{
       flex: 1;

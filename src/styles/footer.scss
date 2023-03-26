@@ -1,17 +1,19 @@
 .footer{
      background-color: rgb(247, 241, 235);
+    
     margin-top: 3rem;
     .container{
-          width: 80%;
-          padding: 2rem 0;
-        margin: 0 auto;
+        //   width: 80%;
+          padding: 2rem 0.5rem;
+       
         display: grid;
-        grid-template-columns: 30% 30% 30% 30% 30%;
-        gap: 2rem;
+        grid-template-columns: 30% 14% 14% 14% 14% ;
+        gap: 1rem;
         .site{
             display: flex;
             flex-direction: column;
             gap: 1rem;
+            background: #000;
             .site-txt{
                   color: #666565; 
                   font-size: 1.1rem;
@@ -33,11 +35,11 @@
        
             @media screen  and (max-width:1050px){
                  grid-template-columns: repeat(3,1fr);
-                 width: 95%;
+                //  width: 95%;
             }
             @media screen  and (max-width:940px){
                  grid-template-columns: repeat(2,1fr);
-                 width: 95%;
+                
             }
     
           

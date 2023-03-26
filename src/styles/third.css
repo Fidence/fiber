@@ -1,11 +1,8 @@
 .third {
-  margin: 3rem auto;
-  padding: 0 1rem;
+  margin: 3rem 0;
 }
 
 .third .container {
-  width: 80%;
-  margin: 0 auto;
   padding: 2rem 2rem 0 2rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -89,13 +86,7 @@
   }
 }
 
-.forth {
-  padding: 0 1rem;
-}
-
 .forth .container {
-  width: 80%;
-  margin: 0 auto;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 30% 30% 30%;
@@ -153,7 +144,6 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    width: 95%;
   }
 }
 
@@ -163,7 +153,6 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    width: 100%;
   }
 }
 

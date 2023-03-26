@@ -3,8 +3,8 @@ import React from 'react'
 const SecondComp = () => {
   return (
     <div className='second'>
-       <div className="sec-wrap">
-            <div className="fiber">
+       <div className="sec-wrap container">
+            <div className="fiberr">
                 <h3>why Fiber</h3>
                 <h1>A good portfolio means good <br /> empoyability</h1>
             </div>

@@ -3,9 +3,7 @@
 }
 
 .second .sec-wrap {
-  width: 80%;
-  margin: 3rem auto;
-  padding: 0 1rem;
+  margin: 3rem 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -16,7 +14,7 @@
   gap: 3rem;
 }
 
-.second .sec-wrap .fiber {
+.second .sec-wrap .fiberr {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -27,7 +25,7 @@
   gap: 1rem;
 }
 
-.second .sec-wrap .fiber h3 {
+.second .sec-wrap .fiberr h3 {
   color: blueviolet;
 }
 
@@ -74,7 +72,6 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    width: 95%;
   }
 }
 
@@ -84,7 +81,6 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    width: 100%;
   }
 }
 /*# sourceMappingURL=second.css.map */

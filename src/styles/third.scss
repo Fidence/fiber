@@ -1,10 +1,10 @@
 .third{
-     margin: 3rem auto;
-    padding: 0 1rem;
+    
+     margin: 3rem 0;
+ 
      .container{
         
-        width: 80%;
-        margin: 0 auto;
+     
         padding: 2rem 2rem 0 2rem;
         display: flex;
         border-radius: 10px;
@@ -62,11 +62,11 @@
 
 // FOUTH STYLING
 .forth{
-    
-padding: 0 1rem;
+  
+
     .container{
-         width: 80%;
-        margin: 0 auto;
+        //  width: 80%;
+        // margin: 0 auto;
         display: grid;
         grid-template-columns: 30% 30% 30%;
         gap: 1rem;
@@ -106,12 +106,12 @@ padding: 0 1rem;
         }
         @media screen and (max-width:940px) {
             flex-direction: column;
-            width: 95%;
+            // width: 95%;
             
         }
         @media screen and (max-width:500px) {
             flex-direction: column;
-            width: 100%;
+            // width: 100%;
             
         }
     

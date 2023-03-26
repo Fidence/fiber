@@ -3,7 +3,7 @@ import React from 'react'
 const ForthComp = () => {
   return (
     <div className='forth'>
-        <div className="container">
+        <div className=" container">
             <div className="forth-wrap">
                 <div className="bene">
                     <div className="bene-img">

@@ -8,9 +8,8 @@ header{
 }
 
     .container{
-        width: 80%;
-        margin: 0 auto;
-        padding: 0 1rem;
+       
+        padding: 0 0.5rem;
        
 
     }
@@ -62,9 +61,9 @@ header{
 }
 
  @media screen and (max-width:940px) {
-   .container{
-    width: 95%;
-   }
+//    .container{
+//     width: 95%;
+//    }
       
    .nav{
     
@@ -124,13 +123,13 @@ z-index: 10000;
     }
 }
 
-   @media screen and (max-width:500px) {
-      .container{
+//    @media screen and (max-width:500px) {
+//       .container{
 
-          width: 100%;
-      }
+//           width: 100%;
+//       }
        
-   }
+//    }
     
 
     
