@@ -121,9 +121,6 @@
   .first .container .left .creat .header-creat {
     font-size: 40px;
   }
-}
-
-@media screen and (max-width: 768px) {
   .first .container .right {
     display: none;
   }
